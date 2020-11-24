@@ -1,0 +1,75 @@
+#imagen1{
+    background-image: url("nature1.jpg");
+}
+#imagen2{
+    background-image: url("nature2.jpg");
+}
+#imagen3{
+    background-image: url("nature3.jpg");
+}
+#imagen4{
+    background-image: url("nature4.jpg");
+}
+#centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+div{
+    background-color: rgb(58, 53, 53, 0.5);
+    text-align: center;
+    padding: 3px;
+    
+}
+ul{float: right;}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;  
+}
+ul li a{
+    text-align: center;
+    background-color: rgb(58, 53, 53, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 26px;
+    padding-right: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    background-color: rgba(58, 53, 53, 0.911);
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+nav{
+    float: right;
+    position: absolute;
+    top:92%;
+    right: 2%;
+
+}
+#logo{
+    float: right;
+    position: absolute;
+    top:73%;
+    right: 87%;
+    transform: scale(0.5);
+}
+#pagina_actual{
+    background-color: rgba(58, 53, 53, 0.911);
+}
+nav img{
+    filter: grayscale(100%)
+}
+nav img:hover{
+    filter: grayscale(0%)
+}
